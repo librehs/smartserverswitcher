@@ -1,0 +1,19 @@
+# Configurations of SmartServerSwitcher.
+
+## Required settings
+
+# basedir - Base directory where your config file saves.
+basedir: /home/user/ss-config
+
+# servers - Available server configurationS files excluding ".json".
+servers:
+  - server1
+  - server2
+
+## Optional settings
+
+# proxy - Proxy our tests are going through.
+proxy: "socks5://127.0.0.1:1080"
+
+# testurl - URL we are testing against.
+testurl: "https://zh.wikipedia.org"
